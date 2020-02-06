@@ -1,0 +1,7 @@
+---
+applications:
+- name: CDSBookshop-srv
+  path: .
+  memory: 128M
+  services:
+  - CDSBookshop-db-hdi-container
